@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.authors = { 'Ryan Fowler' => 'ryanfowler@github.com' }
   s.source = { :git => 'https://github.com/lkoskela/SwiftData.git', :tag => s.version }
 
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '8.0'
   #s.osx.deployment_target = '10.9'
 
   s.source_files = '*.swift'
